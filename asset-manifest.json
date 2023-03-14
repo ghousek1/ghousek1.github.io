@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.eb89314d.css",
-    "main.js": "/static/js/main.2b348c14.js",
+    "main.css": "/static/css/main.20025ce5.css",
+    "main.js": "/static/js/main.af20c488.js",
     "static/media/socialraven-banner.png": "/static/media/socialraven-banner.8f53b9615be2efece984.png",
     "static/media/secundusbrain-banner.png": "/static/media/secundusbrain-banner.baf6297afc1000afb7f4.png",
     "static/media/kubernetes.svg": "/static/media/kubernetes.b3d19d760e54e82870400dd5c58e6592.svg",
@@ -18,11 +18,11 @@
     "static/media/mongodb.svg": "/static/media/mongodb.53cffe900ae5bc9436243417539a972a.svg",
     "static/media/graphql.svg": "/static/media/graphql.f026e5476705202bbbc0c17dc687057c.svg",
     "static/media/reactjs.svg": "/static/media/reactjs.3a03708e42481565259f85329d20b695.svg",
-    "main.eb89314d.css.map": "/static/css/main.eb89314d.css.map",
-    "main.2b348c14.js.map": "/static/js/main.2b348c14.js.map"
+    "main.20025ce5.css.map": "/static/css/main.20025ce5.css.map",
+    "main.af20c488.js.map": "/static/js/main.af20c488.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb89314d.css",
-    "static/js/main.2b348c14.js"
+    "static/css/main.20025ce5.css",
+    "static/js/main.af20c488.js"
   ]
 }

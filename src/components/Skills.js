@@ -3,7 +3,6 @@ import "./../App.css";
 import JavaIcon from "../assets/icons/svg/java.svg";
 import GoLangIcon from "../assets/icons/svg/golang.svg";
 import SpringIcon from "../assets/icons/svg/spring.svg";
-// import GoFiberIcon from "../assets/icons/svg/go-fiber.svg";
 import ReactJsIcon from "../assets/icons/svg/reactjs.svg";
 import PostgresIcon from "../assets/icons/svg/postgresql.svg";
 import MongoDbIcon from "../assets/icons/svg/mongodb.svg";
@@ -69,7 +68,10 @@ function Skills() {
 
   return (
     <>
-      <div id="skills" className="flex flex-col items-center w-full section-padding">
+      <div
+        id="skills"
+        className="flex flex-col items-center w-full section-padding section-margin"
+      >
         <div className="flex items-center w-full header-line pb-8">
           <span className="accent mr-4 text-xl font-monospace">01.</span>
           <h3 className="text-2xl whitespace-nowrap slate font-[600]">

@@ -1,6 +1,6 @@
 import "./App.css";
 import Experience from "./components/Experience";
-import Home from "./components/Home";
+import Hero from "./components/Hero";
 import Navigation from "./components/Navigation";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Navigation />
-      <Home />
+      <Hero />
       <Skills />
       <Experience />
       <Projects />

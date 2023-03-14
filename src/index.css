@@ -101,9 +101,6 @@ a {
   filter: blur(4px) brightness(50%);
 }
 
-/* verified above classes */
-
-
 .hover-btn:hover {
   background: var(--king-mid-black);
 }
@@ -225,4 +222,8 @@ h6 {
 
 .text-left {
   text-align: left;
-}
+  }
+
+  .testing-border{
+    /* border:0.05rem greenyellow dotted; */
+  }

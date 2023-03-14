@@ -5,7 +5,7 @@ function SourceRepo({ title, description, links, tags }) {
     <>
       <div className="div-back rounded flex flex-col drop-shadow-2xl p-8 hover-displace translate-8">
         <div className="flex items-center justify-between">
-          <i className="far fa-star accent text-3xl" />
+          <i className="far fa-osi accent text-3xl" />
           <div className="flex items-center dark-slate">
             {Object.keys(links).map((l, i) => {
               return (

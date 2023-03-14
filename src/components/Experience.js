@@ -38,7 +38,7 @@ function Experience() {
 
   return (
     <>
-      <div id="experience" className="flex flex-col text-left items-center w-full section-padding">
+      <div id="experience" className="flex flex-col text-left items-center w-full section-padding section-margin">
         <div className="flex items-center w-full header-line pb-8">
           <span className="accent mr-4 text-xl font-monospace">02.</span>
           <span className="text-[22px] whitespace-nowrap slate font-Poppins font-[600]">

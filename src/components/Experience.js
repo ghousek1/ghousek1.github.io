@@ -71,7 +71,7 @@ function Experience() {
                 <div key={k} className={`${activeTab === i ? "" : "hidden"}`}>
                   <div className={`font-Poppins text-xl mb-1 font-[500]`}>
                     <span className="slate mr-2">{experienceRecord[k].position}</span>
-                    <a href={experienceRecord[k].url} className={"accent"} target="_blank">
+                    <a href={experienceRecord[k].url} className={"accent"} target="_blank" rel="noreferrer" >
                       @ {experienceRecord[k].organisation}
                     </a>
                   </div>

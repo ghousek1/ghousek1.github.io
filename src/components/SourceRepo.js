@@ -13,7 +13,7 @@ function SourceRepo({ title, description, links, tags }) {
                 <a
                   key={i}
                   href={links[l]}
-                  target="_blank"
+                  target="_blank" rel="noreferrer" 
                   className={`hover-accent ${l} ${
                     i === Object.keys(links).length - 1 ? "" : "mx-6"
                   }`}

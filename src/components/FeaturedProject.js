@@ -31,7 +31,7 @@ function FeaturedProject({
           <span className="font-monospace text-sm cursor-default accent mb-2">
             Featured Project
           </span>
-          <a target="_blank" href={Object.values(links)[0]}>
+          <a target="_blank" rel="noreferrer" href={Object.values(links)[0]}>
             <h3
               className={
                 "cursor-pointer slate hover-accent text-2xl font-[600]"

@@ -25,7 +25,7 @@ function Hero() {
           </p>
           <a
             href="https://github.com/ghousek1?tab=repositories"
-            target="_blank"
+            target="_blank" rel="noreferrer" 
             className="accent md:w-fit w-full hover-btn cursor-pointer text-[14px] hover-accent accent-border border rounded font-monospace p-4 px-6 mt-4"
           >
             Check out my work!

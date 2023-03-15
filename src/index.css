@@ -225,5 +225,6 @@ h6 {
   }
 
   .testing-border{
-    /* border:0.05rem greenyellow dotted; */
+    border:0.1rem rgb(225, 18, 194) solid;
   }
+  

@@ -6,3 +6,6 @@
     @apply mb-8  md:mb-12;
 }
 
+.custom-grid-template{
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+}

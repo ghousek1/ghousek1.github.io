@@ -6,8 +6,8 @@ import HeroBannerImage from "../assets/images/hero-banner-image.png";
 function Hero() {
   return (
     <>
-      <div className="flex flex-row justify-start h-full w-full section-padding section-margin gap-2 testing-border">
-        <div className="flex flex-col justify-center w-full testing-border">
+      <div className="flex flex-row justify-start h-full w-full section-padding section-margin gap-2">
+        <div className="flex flex-col justify-center w-full ">
           <h1 className="text-4xl font-[600] slate mb-3 lg:text-6xl">
             Ghouse K1
           </h1>
@@ -31,7 +31,7 @@ function Hero() {
             Check out my work!
           </a>
         </div>
-        <div className="hidden md:flex md:flex-col md:justify-center testing-border">
+        <div className="hidden md:flex md:flex-col md:justify-center">
           <div>
             <img src={HeroBannerImage} alt="hero-banner" className="" />
           </div>

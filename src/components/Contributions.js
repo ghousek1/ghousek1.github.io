@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import SourceRepo from "./SourceRepo";
 import "./../App.css";
 
@@ -25,7 +25,6 @@ function Contributions() {
         }
       ];
     
-      const[contributedRepos,setContributedRepoList] = useState(contributedRepoList);
   return (
     <>
     <div id="contributions" className="flex flex-col items-center w-full section-padding section-margin">
@@ -37,9 +36,10 @@ function Contributions() {
       </div>
       <div className="grid md:grid-cols-2 gap-4 w-full">
     
-    {contributedRepos.map((p, i) => {
+    {contributedRepoList.map((p, i) => {
       return (
         <SourceRepo
+           key={p.title}
           title={p.title}
           description={p.description}
           tags={p.tags}

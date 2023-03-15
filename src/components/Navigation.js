@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from 'react-scroll'
 
-function Navigation() {
+function NavBar() {
   const [sideMenu, setSideMenu] = useState(false);
 
   const toggleSideMenu = () => {
@@ -32,8 +32,8 @@ function Navigation() {
 
         <ul className="flex flex-col slate font-monospace text-2xl mr-4 tracking-wide
                        md:flex-row md:text-[0.95rem]">
-          {navlinks.map((navLink, key) => (
-            <li key={key} className="py-3 md:px-4 md:py-0">
+          {navlinks.map((navLink) => (
+            <li key={navLink.id} className="py-3 md:px-4 md:py-0">
               <Link onClick={toggleSideMenu} className="hover-accent"  to={navLink.url} 
               spy={true} smooth={true} offset={50} duration={1000}>
                 <span className="mr-2 accent">{navLink.id}</span>
@@ -52,4 +52,4 @@ function Navigation() {
   );
 }
 
-export default Navigation;
+export default NavBar;

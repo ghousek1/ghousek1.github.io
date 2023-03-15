@@ -51,7 +51,6 @@ function Skills() {
       name: "graphql",
       imageLink: GraphqlIcon,
     },
-    ,
     {
       name: "meilisearch",
       imageLink: MeilisearchIcon,
@@ -63,7 +62,7 @@ function Skills() {
     {
       name: "kubernetes",
       imageLink: KubernetesIcon,
-    },
+    }
   ];
 
   return (
@@ -78,11 +77,11 @@ function Skills() {
             Skills
           </h3>
         </div>
-        <div className="flex flex-row w-full flex-wrap items-center justify-items-end md:justify-evenly  ">
-          {skillList.map((skill, key) => (
+        <div className="grid justify-items-center items-center custom-grid-template w-full ">
+          {skillList.map((skill) => (
             <div
-              key={key}
-              className="text-center p-2 mb-6 md:p-6 md:mb-10 flex-1"
+              key={skill.name}
+              className="text-center p-2 mb-6 md:p-6 md:mb-10 "
             >
               <img
                 src={skill.imageLink}

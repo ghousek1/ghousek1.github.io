@@ -33,8 +33,8 @@ function Projects() {
 
   const otherProjectList = [
     {
-      title: "Knight authorization server",
-      description: "Authorization server to handle auth config",
+      title: "Knight auth server",
+      description: "Authenticaion & Authorization server to handle config",
       links: {
         "fab fa-github": "https://github.com/ghousek1/knight-auth-server",
       },

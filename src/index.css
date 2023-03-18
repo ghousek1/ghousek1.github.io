@@ -9,32 +9,29 @@
 
 :root {
   /* backgroundColor: */
-  --king-black: #000000;
+  --custom-background-color: #000000;
   /*hover button of home*/
-  --king-mid-black: rgba(100, 255, 218, 0.1);
+  --custom-hover-color: rgba(100, 255, 218, 0.1);
   /*header lines*/
-  --king-charcoal-black: #545a65;
+  --custom-header-lines-color: #545a65;
 
   /* highlighted-color */
-  --king-red: #ff1717;
+  --custom-highlighted-color: #ff1717;
 
   /* scroll bar color*/
-  --king-gray: #8289ad;
+  --custom-scrollbar-color: #8289ad;
 
   /*first headings of sections*/
-  --king-charcoal-gray: #c7d2f5;
+  --: #c7d2f5;
 
   /*first headings of sections*/
-  --king-charcoal-dark-gray: #8c93a8;
-
-  /**/
-  /* --king-charcoal-dark-gray-2: #a8b2d1; */
+  --custom-second-heading-color: #8c93a8;
 
 }
 
 body {
   margin: 0;
-  background-color: var(--king-black);
+  background-color: var(--custom-background-color);
   min-height: 100vh;
   width: 100vw;
   color: white;
@@ -52,7 +49,7 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--king-gray);
+  background: var(--custom-scrollbar-color);
   border-radius: 4px;
 }
 
@@ -69,31 +66,31 @@ a {
 }
 
 .div-back {
-  background: var(--king-black);
+  background: var(--custom-background-color);
 }
 
 .accent {
-  color: var(--king-red);
+  color: var(--custom-highlighted-color);
 }
 
 .accent-border {
-  border-color: var(--king-red);
+  border-color: var(--custom-highlighted-color);
 }
 
 .slate {
-  color: var(--king-charcoal-gray);
+  color: var(--custom-first-heading-color);
 }
 
 .slate-alt {
-  color: var(--king-charcoal-dark-gray);
+  color: var(--custom-second-heading-color);
 }
 
 .dark-slate {
-  color: var(--king-charcoal-dark-gray);
+  color: var(--custom-second-heading-color);
 }
 
 .hover-accent:hover {
-  color: var(--king-red);
+  color: var(--custom-highlighted-color);
   opacity: 100%;
 }
 
@@ -102,7 +99,7 @@ a {
 }
 
 .hover-btn:hover {
-  background: var(--king-mid-black);
+  background: var(--custom-hover-color);
 }
 
 .hover-displace:hover {
@@ -119,7 +116,7 @@ a {
   width: 1px;
   height: 100px;
   display: inline-block;
-  background: var(--king-charcoal-gray);
+  background: var(--custom-first-heading-color);
 }
 
 .header-line:after {
@@ -127,7 +124,7 @@ a {
   max-width: 300px;
   width: 100%;
   height: 1px;
-  background: var(--king-charcoal-black);
+  background: var(--custom-header-lines-color);
   display: inline-block;
   margin: 0 20px;
 }
@@ -155,12 +152,12 @@ a {
   content: "▹";
   position: absolute;
   left: 0;
-  color: var(--king-red);
+  color: var(--custom-highlighted-color);
 }
 
 .work-list li {
   white-space: nowrap;
-  border-color: var(--king-charcoal-black);
+  border-color: var(--custom-header-lines-color);
 }
 
 .work-list::-webkit-scrollbar {
@@ -169,8 +166,8 @@ a {
 
 .work-list li:hover,
 .cert-list li:hover {
-  color: var(--king-red);
-  background: var(--king-black);
+  color: var(--custom-highlighted-color);
+  background: var(--custom-background-color);
 }
 
 .cert-list li>a {
@@ -179,9 +176,9 @@ a {
 }
 
 .active-item {
-  color: var(--king-red);
-  background: var(--king-black);
-  border-color: var(--king-red) !important;
+  color: var(--custom-highlighted-color);
+  background: var(--custom-background-color);
+  border-color: var(--custom-highlighted-color) !important;
 }
 
 
@@ -195,7 +192,7 @@ a {
 
 /* not much useful */
 p>a {
-  color: var(--king-red);
+  color: var(--custom-highlighted-color);
 }
 
 .ghost-white {

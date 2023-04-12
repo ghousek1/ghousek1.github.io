@@ -16,7 +16,7 @@ function FeaturedProject({
             orientation ? "left-0" : "right-0"
           } h-full md:h-auto md:w-full `}
         >
-          <div className="w-full h-full absolute top-0 bg-black opacity-40 brightness-50 hover:hidden z-10" />
+          <div className="absolute top-0 z-10 w-full h-full bg-black opacity-40 brightness-50 hover:hidden" />
           <img
             src={image}
             className={`blur-sm brightness-50 h-full md:brightness-100 md:blur-0 object-cover md:object-contain drop-shadow-2xl`}
@@ -28,7 +28,7 @@ function FeaturedProject({
             orientation ? "ml-auto md:items-end" : "md:items-start"
           } w-full md:w-fit`}
         >
-          <span className="font-monospace text-sm cursor-default accent mb-2">
+          <span className="mb-2 text-sm cursor-default font-monospace accent">
             Featured Project
           </span>
           <a target="_blank" rel="noreferrer" href={Object.values(links)[0]}>

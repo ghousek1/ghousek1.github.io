@@ -37,20 +37,20 @@ function Experience() {
 
   return (
     <>
-      <div id="experience" className="flex flex-col text-left items-center w-full section-padding section-margin">
-        <div className="flex items-center w-full header-line pb-8">
-          <span className="accent mr-4 text-xl font-monospace">02.</span>
+      <div id="experience" className="flex flex-col items-center w-full text-left section-padding section-margin">
+        <div className="flex items-center w-full pb-8 header-line">
+          <span className="mr-4 text-xl accent font-monospace">02.</span>
           <span className="text-[22px] whitespace-nowrap slate font-Poppins font-[600]">
             Experience
           </span>
         </div>
-        <p className="dark-slate w-full mb-3 leading-7">
+        <p className="w-full mb-3 leading-7 dark-slate">
           As in 2023, I have almost 2.5 years of professional developer experience in building backend applications.
            Along side worked and contributed to prominent open-source projects.
         </p>
       
-        <div className="flex flex-col md:flex-row w-full mt-10 flex-start md:gap-20">
-          <ul className="flex md:flex-col   text-sm slate-alt overflow-x-scroll font-monospace mr-6 work-list mb-8 md:mb-0">
+        <div className="flex flex-col w-full mt-10 md:flex-row flex-start md:gap-20">
+          <ul className="flex mb-8 mr-6 overflow-x-scroll text-sm md:flex-col slate-alt font-monospace work-list md:mb-0">
             {Object.keys(experienceRecord).map((k, i) => {
               return (
                 <li
@@ -70,7 +70,7 @@ function Experience() {
               return (
                 <div key={k} className={`${activeTab === i ? "" : "hidden"}`}>
                   <div className={`font-Poppins text-xl mb-1 font-[500]`}>
-                    <span className="slate mr-2">{experienceRecord[k].position}</span>
+                    <span className="mr-2 slate">{experienceRecord[k].position}</span>
                     <a href={experienceRecord[k].url} className={"accent"} target="_blank" rel="noreferrer" >
                       @ {experienceRecord[k].organisation}
                     </a>
@@ -78,7 +78,7 @@ function Experience() {
                   <span className={"slate text-sm font-monospace"}>
                     {experienceRecord[k].duration}
                   </span>
-                  <ul className="flex flex-col bullet-list mt-4  slate-alt leading-6 text-sm">
+                  <ul className="flex flex-col mt-4 text-sm leading-6 bullet-list slate-alt">
                     {Object.values(experienceRecord[k].content).map((v) => (
                       <li key={v} className={"mb-2"}>{v}</li>
                     ))}

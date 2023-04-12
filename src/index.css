@@ -9,24 +9,34 @@
 
 :root {
   /* backgroundColor: */
-  --custom-background-color: #000000;
-  /*hover button of home*/
-  --custom-hover-color: rgba(100, 255, 218, 0.1);
-  /*header lines*/
-  --custom-header-lines-color: #545a65;
-
-  /* highlighted-color */
-  --custom-highlighted-color: #ff1717;
-
-  /* scroll bar color*/
-  --custom-scrollbar-color: #8289ad;
+  --custom-background-color: #ffffff;
+  /* --custom-background-color-dark: #000000; */
 
   /*first headings of sections*/
-  --: #c7d2f5;
+  --custom-first-heading-color: #26282e;
+  /* --custom-first-heading-color-dark: #c7d2f5; */
 
+  /*header lines*/
+  --custom-header-lines-color: #4b4f58;
+  /* --custom-header-lines-color-dark: #545a65; */
+  
+  /* highlighted-color */
+  --custom-highlighted-color: #ff1717;
+  
+  /* scroll bar color*/
+  --custom-scrollbar-color: #8289ad;
+  
+  
   /*first headings of sections*/
   --custom-second-heading-color: #8c93a8;
 
+  --test:#141212;
+
+
+
+  /*hover button of home*/
+  --custom-hover-color: rgba(32, 25, 25, 0.1);
+  
 }
 
 body {
@@ -123,7 +133,7 @@ a {
   content: " ";
   max-width: 300px;
   width: 100%;
-  height: 1px;
+  height: 0.15rem;
   background: var(--custom-header-lines-color);
   display: inline-block;
   margin: 0 20px;
@@ -225,3 +235,11 @@ h6 {
     border:0.1rem rgb(225, 18, 194) solid;
   }
   
+
+  #dark{
+    background-color:navy;
+  }
+
+  #light{
+    background-color: antiquewhite;
+  }

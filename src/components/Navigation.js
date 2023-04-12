@@ -1,52 +1,74 @@
-import React, { useState } from "react";
-import { Link } from 'react-scroll'
+import React, { useContext, useState } from "react";
+import { Link } from "react-scroll";
+import { ThemeContext } from "../context/ThemeContext";
 
 function NavBar() {
   const [sideMenu, setSideMenu] = useState(false);
 
+  const [userThemeMode, toggleUserThemeMode] = useContext(ThemeContext);
+
   const toggleSideMenu = () => {
     setSideMenu(!sideMenu);
   };
-   
+  
+  const toggleTheme = () => {
+    toggleUserThemeMode();
+    console.log("changed theme from toggle - " + userThemeMode);
+  };
+
   const navlinks = [
-    { id:"01", name: "skills", url: "skills" },
-    { id:"02", name: "experience", url: "experience" },
-    { id:"03", name: "projects", url: "projects" },
-    { id:"04", name: "contributions", url: "contributions" },
+    { id: "01", name: "Skills", url: "skills" },
+    { id: "02", name: "Experience", url: "experience" },
+    { id: "03", name: "Projects", url: "projects" },
+    { id: "04", name: "Contributions", url: "contributions" },
   ];
 
   return (
     <nav
       id="navigation"
-      className="flex w-full h-[6.25rem] px-4 items-center justify-between 
-                 md:px-8 "
+      className="flex h-[6.25rem] w-full items-center justify-between px-4 md:px-8 "
     >
-      <a href="/" className="z-[100] text-3xl cursor-pointer">
-        <span className="accent">K1</span>
+      <a href="/" className="z-[100] cursor-pointer text-3xl">
+        <span className="accent bold text-4xl font-[600]">K1</span>
       </a>
       <div
         className={`${sideMenu ? "flex" : "hidden md:flex"} 
-        flex-col p-8  w-full h-full fixed  top-0 left-0 backdrop-blur-sm bg-[rgba(0,0,0,0.8)] md:bg-transparent items-end justify-center z-[100] 
-        md:p-0 md:w-auto md:h-auto md:relative md:flex-row md:items-center md:justify-center`}
+        fixed top-0  left-0 z-[100] h-full  w-full flex-col items-end justify-center
+        p-8 backdrop-blur-md md:relative 
+        md:h-auto md:w-auto md:flex-row md:items-center md:justify-center md:bg-transparent md:p-0`}
       >
-
-        <ul className="flex flex-col slate font-monospace text-2xl mr-4 tracking-wide
-                       md:flex-row md:text-[0.95rem]">
+        <ul
+          className="slate font-[420] mr-4 flex flex-col font-monospace text-[1.5rem] leading-10 tracking-wide
+                       md:flex-row md:text-[1rem] md:leading-8"
+        >
           {navlinks.map((navLink) => (
-            <li key={navLink.id} className="py-3 md:px-4 md:py-0">
-              <Link onClick={toggleSideMenu} className="hover-accent"  to={navLink.url} 
-              spy={true} smooth={true} offset={50} duration={1000}>
-                <span className="mr-2 accent">{navLink.id}</span>
-                <span className="capitalize ">{navLink.name}</span>
+            <li key={navLink.id} className="px-5 py-3 md:px-4 md:py-0">
+              <Link
+                onClick={toggleSideMenu}
+                className="hover-accent"
+                to={navLink.url}
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={1000}
+              >
+                <span className="mr-2 accent bold">{navLink.id}</span>
+                <span className="bold">{navLink.name}</span>
               </Link>
             </li>
           ))}
+          <li>
+            <i
+              onClick={toggleTheme}
+              className="text-[1.75rem] fa-solid fa-circle-half-stroke fa-spin px-5 py-3 md:px-2 md:py-0"
+            ></i>
+          </li>
         </ul>
       </div>
       <i
         onClick={toggleSideMenu}
         className={`fas fa-${sideMenu ? "close" : "bars-staggered"} 
-                    cursor-pointer z-[100] w-[1.25rem] text-center text-xl md:hidden`}
+                    z-[100] w-[1.25rem] cursor-pointer text-center text-xl md:hidden accent`}
       />
     </nav>
   );

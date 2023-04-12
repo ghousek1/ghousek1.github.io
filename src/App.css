@@ -3,7 +3,7 @@
 }
 
 .section-margin{
-    @apply mb-8  md:mb-12;
+    @apply mb-8 md:mb-12;
 }
 
 .custom-grid-template{

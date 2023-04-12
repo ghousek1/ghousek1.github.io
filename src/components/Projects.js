@@ -63,10 +63,10 @@ function Projects() {
     <>
       <div
         id="projects"
-        className="section-padding section-margin flex w-full flex-col items-center  "
+        className="flex flex-col items-center w-full section-padding section-margin "
       >
-        <div className="header-line flex w-full items-center pb-16 ">
-          <span className="accent mr-4 font-monospace text-xl">03.</span>
+        <div className="flex items-center w-full pb-16 header-line ">
+          <span className="mr-4 text-xl accent font-monospace">03.</span>
           <h3 className="slate whitespace-nowrap text-2xl font-[600]">
             Featured Projects
           </h3>
@@ -85,8 +85,8 @@ function Projects() {
           );
         })}
 
-        <div className="flex w-full flex-col items-center ">
-          <div className="flex w-full flex-col items-center justify-center pb-8">
+        <div className="flex flex-col items-center w-full ">
+          <div className="flex flex-col items-center justify-center w-full pb-8">
             <h3 className="slate mb-[0.3rem] text-2xl font-[600]">
               Other Projects
             </h3>

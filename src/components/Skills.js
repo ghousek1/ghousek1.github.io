@@ -69,26 +69,26 @@ function Skills() {
     <>
       <div
         id="skills"
-        className="flex flex-col items-center w-full section-padding section-margin"
+        className="flex flex-col items-center w-full section-padding section-margin "
       >
-        <div className="flex items-center w-full header-line pb-8">
-          <span className="accent mr-4 text-xl font-monospace">01.</span>
+        <div className="flex items-center w-full pb-8 header-line">
+          <span className="mr-4 text-xl accent font-monospace">01.</span>
           <h3 className="text-2xl whitespace-nowrap slate font-[600]">
             Skills
           </h3>
         </div>
-        <div className="grid justify-items-center items-center custom-grid-template w-full ">
+        <div className="grid items-center w-full justify-items-center custom-grid-template div-back drop-shadow-2xl">
           {skillList.map((skill) => (
             <div
               key={skill.name}
-              className="text-center p-2 mb-6 md:p-6 md:mb-10 "
+              className="p-2 my-6 text-center md:p-6 md:my-10 "
             >
               <img
                 src={skill.imageLink}
-                className="mx-auto mb-1 w-6 h-6 md:mb-2 md:w-16 md:h-16 grayscale hover:grayscale-0"
+                className="w-6 h-6 mx-auto mb-1 md:mb-2 md:w-16 md:h-16 grayscale hover:grayscale-0 hover-displace translate-8"
                 alt={skill.name}
               />
-              <div className="slate text-xs md:text-sm font-monospace capitalize">
+              <div className="text-xs capitalize slate md:text-sm font-monospace">
                 {skill.name}
               </div>
             </div>

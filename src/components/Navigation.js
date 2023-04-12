@@ -60,7 +60,7 @@ function NavBar() {
           <li>
             <i
               onClick={toggleTheme}
-              className="text-[1.75rem] fa-solid fa-circle-half-stroke fa-spin px-5 py-3 md:px-2 md:py-0"
+              className="text-[1.75rem] fa-solid fa-circle-half-stroke px-5 py-3 md:px-2 md:py-0"
             ></i>
           </li>
         </ul>

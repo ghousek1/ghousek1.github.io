@@ -35,7 +35,7 @@ function ThemeContextDefaultProvider(props) {
   const darkThemeCSSVariables = [
     {
       name: "--custom-background-color",
-      value: "#000000",
+      value: "#181818",
     },
     {
       name: "--custom-first-heading-color",

@@ -1,6 +1,10 @@
 import React from "react";
-import SecundusBrainBanner from "../assets/images/projects/secundusbrain-banner.png";
-import SocialRavenBanner from "../assets/images/projects/socialraven-banner.png";
+import SecundusBrainDarkBanner from "../assets/images/projects/secundusbrain-banner-dark.png";
+import SecundusBrainLightBanner from "../assets/images/projects/secundusbrain-banner-light.png";
+import SocialRavenDarkBanner from "../assets/images/projects/socialraven-banner-dark.png";
+import SocialRavenLightBanner from "../assets/images/projects/socialraven-banner-light.png";
+import ViscodyDarkBanner from "../assets/images/projects/viscody-banner-dark.png";
+import ViscodyLightBanner from "../assets/images/projects/viscody-banner-light.png";
 import FeaturedProject from "./FeaturedProject";
 import Project from "./Project";
 import "./../App.css";
@@ -16,7 +20,8 @@ function Projects() {
         "fab fa-github": "https://github.com/ghousek1/secundusbrain",
         "fas fa-external-link": "https://ghousek1.com/secundusbrain",
       },
-      image: SecundusBrainBanner,
+      imageLight:SecundusBrainLightBanner,
+      imageDark:SecundusBrainDarkBanner
     },
     {
       name: "Social Raven - Social media management tool",
@@ -27,7 +32,20 @@ function Projects() {
         "fab fa-github": "https://github.com/ghousek1/socialraven",
         "fas fa-external-link": "https://ghousek1.com/socialraven",
       },
-      image: SocialRavenBanner,
+      imageLight:SocialRavenLightBanner,
+      imageDark: SocialRavenDarkBanner
+    },
+    {
+      name: "Viscody - Data visualization tool",
+      description:
+        "Data visualization tool that helps in visualizing Json, Yaml, Xml, Csv etc",
+      tags: ["React", "Tailwind"],
+      links: {
+        "fab fa-github": "https://github.com/ghousek1/viscody",
+        "fas fa-external-link": "https://ghousek1.com/viscody",
+      },
+      imageLight:ViscodyLightBanner,
+      imageDark: ViscodyDarkBanner
     },
   ];
 
@@ -75,7 +93,8 @@ function Projects() {
           return (
             <FeaturedProject
               key={p.name}
-              image={p.image}
+              imageLight={p.imageLight}
+              imageDark={p.imageDark}
               title={p.name}
               description={p.description}
               tags={p.tags}
@@ -94,7 +113,7 @@ function Projects() {
               href="https://github.com/ghousek1?tab=repositories"
               className={"accent font-monospace text-sm"}
             >
-              view github archive
+              view github repos
             </a>
           </div>
           <div className="grid w-full gap-4 md:grid-cols-3">

@@ -5,7 +5,9 @@ import Navigation from "./components/Navigation";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contributions from "./components/Contributions";
+import Contact from "./components/Contact";
 import ThemeContextDefaultProvider from "./context/ThemeContextProvider";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Experience />
         <Projects />
         <Contributions />
+        <Contact/>
+        <Footer/>
       </ThemeContextDefaultProvider>
     </div>
   );

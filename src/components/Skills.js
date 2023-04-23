@@ -77,15 +77,15 @@ function Skills() {
             Skills
           </h3>
         </div>
-        <div className="grid items-center w-full justify-items-center custom-grid-template div-back drop-shadow-2xl">
+        <div className="grid items-center w-full justify-items-center custom-grid-template div-back">
           {skillList.map((skill) => (
             <div
               key={skill.name}
-              className="p-2 my-6 text-center md:p-6 md:my-10 "
+              className="p-2 my-6 text-center hover:scale-110 md:p-6 md:my-10 "
             >
               <img
                 src={skill.imageLink}
-                className="w-6 h-6 mx-auto mb-1 md:mb-2 md:w-16 md:h-16 grayscale hover:grayscale-0 hover-displace translate-8"
+                className="w-6 h-6 mx-auto mb-1 md:mb-2 md:w-16 md:h-16 grayscale hover:grayscale-0 "
                 alt={skill.name}
               />
               <div className="text-xs capitalize slate md:text-sm font-monospace">

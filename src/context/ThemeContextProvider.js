@@ -13,6 +13,7 @@ function ThemeContextDefaultProvider(props) {
         setUserThemeMode(colorScheme);
       });
 
+      toggleUserThemeMode();
       toggleCSSVariables();
   }, []);
 
@@ -35,7 +36,7 @@ function ThemeContextDefaultProvider(props) {
   const darkThemeCSSVariables = [
     {
       name: "--custom-background-color",
-      value: "#181818",
+      value: "#090909",
     },
     {
       name: "--custom-first-heading-color",

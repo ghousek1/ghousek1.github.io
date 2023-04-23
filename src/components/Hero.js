@@ -24,15 +24,7 @@ function Hero() {
             scalabilty. Currently, I’m focused on building skills, projects and
             contributing to opensource softwares.
           </p>
-          {/* <a
-            href="https://github.com/ghousek1?tab=repositories"
-            target="_blank"
-            rel="noreferrer"
-            className="accent hover-btn hover-accent accent-border mt-8 w-full cursor-pointer rounded p-4 px-6 font-monospace text-[14px] md:w-fit"
-          >
-            Check out my work!
-          </a> */}
-
+         
         <div className="flex w-full py-4 pr-2 my-8 cursor-pointer md:pr-4 md:my-12 font-monospace md:w-fit">
 
         

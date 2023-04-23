@@ -1,13 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ThemeContext } from "../context/ThemeContext";
 
 function FeaturedProject({
-  image,
+  imageLight,
+  imageDark,
   title,
   description,
   tags,
   links,
   orientation = 1,
 }) {
+
+  const [userThemeMode, toggleUserThemeMode] = useContext(ThemeContext);
   return (
     <>
       <div className="flex items-center w-full relative h-[27rem] mb-[3rem] border border-slate-700 md:border-0  drop-shadow md:drop-shadow-none">
@@ -18,7 +22,7 @@ function FeaturedProject({
         >
           <div className="absolute top-0 z-10 w-full h-full bg-black opacity-40 brightness-50 hover:hidden" />
           <img
-            src={image}
+            src={ userThemeMode==='light' ? imageDark : imageLight} //TODO
             className={`blur-sm brightness-50 h-full md:brightness-100 md:blur-0 object-cover md:object-contain drop-shadow-2xl`}
             alt="Hal"
           />
@@ -41,15 +45,16 @@ function FeaturedProject({
             </h3>
           </a>
           <p
-            className={`cursor-default md:bg-[#112240] rounded py-6 md:px-6 max-w-[500px] dark-slate text-[15px] ${
+            className={`cursor-default bg-[#141618] rounded
+            py-6 md:px-6 max-w-[34.5rem] dark-slate text-[0.94rem] ${
               orientation ? "md:text-right" : "md:text-left"
-            } my-4 drop-shadow-xl`}
+            } my-9 drop-shadow-xl`}
           >
             {description}
           </p>
           <ul
             className={
-              "flex flex-wrap cursor-default max-w-[500px] items-center text-sm my-1 dark-slate font-monospace whitespace-nowrap"
+              "flex flex-wrap cursor-default max-w-[34.5rem] items-center text-sm my-1 dark-slate font-monospace whitespace-nowrap"
             }
           >
             {tags.map((t, i) => {

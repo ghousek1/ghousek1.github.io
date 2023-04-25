@@ -20,10 +20,10 @@ function FeaturedProject({
             orientation ? "left-0" : "right-0"
           } h-full md:h-auto md:w-full `}
         >
-          <div className="absolute top-0 z-10 w-full h-full bg-black opacity-40 brightness-50 hover:hidden" />
+          <div className="absolute top-0 z-10 w-full h-full" />
           <img
             src={ userThemeMode==='light' ? imageDark : imageLight} //TODO
-            className={`blur-sm brightness-50 h-full md:brightness-100 md:blur-0 object-cover md:object-contain drop-shadow-2xl`}
+            className={` h-full object-cover md:object-contain drop-shadow-2xl`}
             alt="Hal"
           />
         </div>

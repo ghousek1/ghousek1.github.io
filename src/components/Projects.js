@@ -51,7 +51,16 @@ function Projects() {
 
   const otherProjectList = [
     {
-      title: "Knight auth server",
+      title: "Regel - Regular Expression helper tool",
+      description: "Multithreaded web server written in java",
+      links: {
+        "fab fa-github":
+          "https://github.com/ghousek1/regel",
+      },
+      tags: ["Java", "React"],
+    },
+     {
+      title: "Knight - Auth server",
       description: "Authenticaion & Authorization server to handle config",
       links: {
         "fab fa-github": "https://github.com/ghousek1/knight-auth-server",
@@ -59,22 +68,14 @@ function Projects() {
       tags: ["Java", "Spring", "Keycloak", "Postgres"],
     },
     {
-      title: "Legion multithreaded server",
-      description: "Multithreaded web server written in java",
-      links: {
-        "fab fa-github":
-          "https://github.com/ghousek1/legion-multithreaded-server",
-      },
-      tags: ["Java", "Spring", "Redis"],
-    },
-    {
-      title: "Tern monitoring tool",
+      title: "Tern - Monitoring tool",
       description: "Monitoring tool to observe apps in environments",
       links: {
         "fab fa-github": "https://github.com/ghousek1/tern-monitoring-tool",
       },
       tags: ["Java", "Spring", "Postgres", "Kafka"],
-    },
+    }
+    
   ];
 
   return (

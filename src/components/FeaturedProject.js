@@ -23,14 +23,14 @@ function FeaturedProject({
           <div className="absolute top-0 z-10 w-full h-full" />
           <img
             src={ userThemeMode==='light' ? imageDark : imageLight} //TODO
-            className={` h-full object-cover md:object-contain drop-shadow-2xl`}
+            className={` h-full object-cover md:object-contain drop-shadow-2xl `}
             alt="Hal"
           />
         </div>
         <div
           className={`flex flex-col p-8 md:p-0 z-10 ${
             orientation ? "ml-auto md:items-end" : "md:items-start"
-          } w-full md:w-fit`}
+          } w-full md:w-fit backdrop-blur-md `}
         >
           <span className="mb-2 text-sm cursor-default font-monospace accent">
             Featured Project

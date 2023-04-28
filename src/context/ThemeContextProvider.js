@@ -20,7 +20,7 @@ function ThemeContextDefaultProvider(props) {
   const lightThemeCSSVariables = [
     {
       name: "--custom-background-color",
-      value: "#ffffff",
+      value: "#fdfdfd",
     },
     {
       name: "--custom-first-heading-color",

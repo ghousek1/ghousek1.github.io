@@ -6,9 +6,9 @@ import HeroBannerImage from "../assets/images/hero-banner-image.png";
 function Hero() {
   return (
     <>
-      <div className="flex flex-row justify-start w-full h-full gap-2 mt-3 section-padding section-margin">
+      <div className="flex flex-row justify-start w-full h-full gap-2 mt-1 md:mt-3 section-padding section-margin">
         <div className="flex flex-col justify-center w-full">
-          <h1 className="slate mb-2 mt-16 py-1 text-4xl font-[600] md:py-2 lg:text-6xl">
+          <h1 className="slate mb-2 mt-6 md:mt-16 py-1 text-4xl font-[600] md:py-2 lg:text-6xl">
             Ghouse K1
           </h1>
           <h2

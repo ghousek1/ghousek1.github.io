@@ -17,11 +17,11 @@ function Projects() {
         "A knowledge management tool which handles data like human brain",
       tags: ["SpringBoot", "React", "Postgres", "MeiliSearch", "Redis"],
       links: {
-        "fab fa-github": "https://github.com/ghousek1/secundusbrain",
-        "fas fa-external-link": "https://ghousek1.com/secundusbrain",
+        "fab fa-github": "https://github.com/ghousek1/secundus-brain",
+        "fas fa-external-link": "https://secundusbrain.ghousek1.com",
       },
-      imageLight:SecundusBrainLightBanner,
-      imageDark:SecundusBrainDarkBanner
+      imageLight: SecundusBrainLightBanner,
+      imageDark: SecundusBrainDarkBanner
     },
     {
       name: "Social Raven - Social media management tool",
@@ -29,10 +29,10 @@ function Projects() {
         "Social media management tool that helps in scheduling posts, analyse traffic for social media accounts",
       tags: ["SpringBoot", "React", "Postgres", "KeyCloak", "Kafka", "Redis"],
       links: {
-        "fab fa-github": "https://github.com/ghousek1/socialraven",
-        "fas fa-external-link": "https://ghousek1.com/socialraven",
+        "fab fa-github": "https://github.com/ghousek1/social-raven",
+        "fas fa-external-link": "https://socialraven.ghousek1.com",
       },
-      imageLight:SocialRavenLightBanner,
+      imageLight: SocialRavenLightBanner,
       imageDark: SocialRavenDarkBanner
     },
     {
@@ -42,9 +42,9 @@ function Projects() {
       tags: ["React", "Tailwind"],
       links: {
         "fab fa-github": "https://github.com/ghousek1/viscody",
-        "fas fa-external-link": "https://ghousek1.com/viscody",
+        "fas fa-external-link": "https://viscody.ghousek1.com",
       },
-      imageLight:ViscodyLightBanner,
+      imageLight: ViscodyLightBanner,
       imageDark: ViscodyDarkBanner
     },
   ];
@@ -52,12 +52,12 @@ function Projects() {
   const otherProjectList = [
     {
       title: "Regel - Regular Expression helper tool",
-      description: "Multithreaded web server written in java",
+      description: "Regular Expression helper tool written in javascript",
       links: {
         "fab fa-github":
           "https://github.com/ghousek1/regel",
       },
-      tags: ["Java", "React"],
+      tags: ["Javascript", "React"],
     },
      {
       title: "Knight - Auth server",

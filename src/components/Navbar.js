@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { Link } from "react-scroll";
 import { ThemeContext } from "../context/ThemeContext";
 
-function NavBar() {
+function Navbar() {
   const [sideMenu, setSideMenu] = useState(false);
 
   const [userThemeMode, toggleUserThemeMode] = useContext(ThemeContext);
@@ -74,4 +74,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Navbar;

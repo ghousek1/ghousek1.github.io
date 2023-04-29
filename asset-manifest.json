@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cce52118.css",
-    "main.js": "/static/js/main.ed47ec5c.js",
+    "main.js": "/static/js/main.53b14fec.js",
     "static/media/secundusbrain-banner-dark.png": "/static/media/secundusbrain-banner-dark.9606fa3ddff04d2127dc.png",
     "static/media/secundusbrain-banner-light.png": "/static/media/secundusbrain-banner-light.9606fa3ddff04d2127dc.png",
     "static/media/viscody-banner-dark.png": "/static/media/viscody-banner-dark.a0146ff5eba334ff3d73.png",
@@ -23,10 +23,10 @@
     "static/media/graphql.svg": "/static/media/graphql.f026e5476705202bbbc0c17dc687057c.svg",
     "static/media/reactjs.svg": "/static/media/reactjs.3a03708e42481565259f85329d20b695.svg",
     "main.cce52118.css.map": "/static/css/main.cce52118.css.map",
-    "main.ed47ec5c.js.map": "/static/js/main.ed47ec5c.js.map"
+    "main.53b14fec.js.map": "/static/js/main.53b14fec.js.map"
   },
   "entrypoints": [
     "static/css/main.cce52118.css",
-    "static/js/main.ed47ec5c.js"
+    "static/js/main.53b14fec.js"
   ]
 }

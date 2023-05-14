@@ -30,7 +30,7 @@ function Hero() {
               href="https://github.com/ghousek1"
               target="_blank"
               rel="noreferrer"
-              className="slate hover-displace translate-8  inline py-2 pr-6 text-[1.7rem] font-[400] opacity-60 md:pr-8 md:text-[2.4rem]"
+              className="slate inline py-2 pr-6 text-[1.7rem] font-[400] opacity-60 md:pr-8 md:text-[2.4rem]"
             >
               <i className="fa-brands fa-github"></i>
             </a>
@@ -38,7 +38,7 @@ function Hero() {
               href="https://www.linkedin.com/in/ghousek1/"
               target="_blank"
               rel="noreferrer"
-              className="slate hover-displace translate-8  inline py-2 pr-6 text-[1.7rem] font-[400] opacity-60 md:pr-8 md:text-[2.4rem]"
+              className="slate  inline py-2 pr-6 text-[1.7rem] font-[400] opacity-60 md:pr-8 md:text-[2.4rem]"
             >
               <i className="fa-brands fa-linkedin"></i>
             </a>
@@ -46,7 +46,7 @@ function Hero() {
               href="https://twitter.com/ghousek1ofcl"
               target="_blank"
               rel="noreferrer"
-              className="slate hover-displace translate-8  inline py-2 pr-6 text-[1.7rem] font-[400] opacity-60 md:pr-8 md:text-[2.4rem]"
+              className="slate  inline py-2 pr-6 text-[1.7rem] font-[400] opacity-60 md:pr-8 md:text-[2.4rem]"
             >
               <i className="fa-brands fa-twitter"></i>
             </a>
@@ -54,7 +54,7 @@ function Hero() {
               href="https://leetcode.com/ghousek1/"
               target="_blank"
               rel="noreferrer"
-              className="slate hover-displace translate-8  inline py-2 pr-6 text-[1.7rem] font-[400] opacity-60 md:pr-8 md:text-[2.4rem]"
+              className="slate  inline py-2 pr-6 text-[1.7rem] font-[400] opacity-60 md:pr-8 md:text-[2.4rem]"
             >
               <i className="fa-solid fa-code"></i>
             </a>
@@ -63,7 +63,7 @@ function Hero() {
               href="mailto:ghousek1@outlook.com"
               target="_blank"
               rel="noreferrer"
-              className="slate hover-displace translate-8  inline py-2 pr-6 text-[1.7rem] font-[400] opacity-60 md:pr-8 md:text-[2.4rem]"
+              className="slate  inline py-2 pr-6 text-[1.7rem] font-[400] opacity-60 md:pr-8 md:text-[2.4rem]"
             >
               <i className="fa-solid fa-envelope"></i>
             </a>

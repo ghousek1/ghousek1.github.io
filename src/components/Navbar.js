@@ -13,7 +13,6 @@ function Navbar() {
   
   const toggleTheme = () => {
     toggleUserThemeMode();
-    console.log("changed theme from toggle - " + userThemeMode);
   };
 
   const navlinks = [

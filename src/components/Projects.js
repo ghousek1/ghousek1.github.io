@@ -54,8 +54,8 @@ function Projects() {
       title: "Regel - Regular Expression helper tool",
       description: "Regular Expression helper tool written in javascript",
       links: {
-        "fab fa-github":
-          "https://github.com/ghousek1/regel",
+          "fab fa-github": "https://github.com/ghousek1/regel",
+          "fas fa-external-link": "https://regel.ghousek1.com",
       },
       tags: ["Javascript", "React"],
     },
@@ -72,6 +72,7 @@ function Projects() {
       description: "Monitoring tool to observe apps in environments",
       links: {
         "fab fa-github": "https://github.com/ghousek1/tern-monitoring-tool",
+        "fas fa-external-link": "https://tern.ghousek1.com",
       },
       tags: ["Java", "Spring", "Postgres", "Kafka"],
     }

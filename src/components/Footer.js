@@ -10,15 +10,6 @@ export default function Footer() {
           rel="noreferrer"
         >
          GhouseK1
-        </a>{" "}
-        & Design inspired by{" "}
-        <a
-          className={"hover-accent"}
-          href={"https://brittanychiang.com/"}
-          target={"_blank"}
-          rel="noreferrer"
-        >
-         Brittany Chiang
         </a>
       </span>
     </div>

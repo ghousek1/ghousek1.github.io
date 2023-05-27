@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import ThemeContextDefaultProvider from "./context/ThemeContextProvider";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import TestComponent from "./components/TestComponent";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Contributions />
         <Contact/>
         <Footer/>
+        {/* <TestComponent/> */}
       </ThemeContextDefaultProvider>
     </div>
   );

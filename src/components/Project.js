@@ -4,7 +4,7 @@ import "./../App.css";
 function Project({ title, description, links, tags }) {
   return (
     <>
-      <div className="flex flex-col p-8 rounded div-back drop-shadow-2xl hover-displace translate-8">
+      <div className="flex flex-col p-8 rounded div-back drop-shadow-2xl ">
         <div className="flex items-center justify-between">
           <i className="text-3xl far fa-folder accent" />
           <div className="flex items-center dark-slate">

@@ -48,7 +48,6 @@ function Navbar() {
                 to={navLink.url}
                 spy={true}
                 smooth={true}
-                offset={50}
                 duration={1000}
               >
                 <span className="mr-2 accent bold">{navLink.id}</span>

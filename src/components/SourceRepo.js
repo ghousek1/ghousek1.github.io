@@ -1,9 +1,10 @@
 import React from "react";
+import MeilisearchIcon from "../assets/icons/svg/meilisearch.svg";
 
 function SourceRepo({ title, description, links, tags }) {
   return (
     <>
-      <div className="flex flex-col p-8 rounded div-back drop-shadow-2xl hover-displace translate-8">
+      <div className="flex flex-col p-8 rounded div-back drop-shadow-2xl ">
         <div className="flex items-center justify-between">
           <i className="text-3xl fa-brands fa-osi accent" />
           <div className="flex items-center dark-slate">

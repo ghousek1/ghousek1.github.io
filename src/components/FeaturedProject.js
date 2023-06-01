@@ -11,28 +11,32 @@ function FeaturedProject({
   orientation = 1,
 }) {
 
-  const [userThemeMode, toggleUserThemeMode] = useContext(ThemeContext);
+  const [userThemeMode] = useContext(ThemeContext);
   return (
     <>
-      <div className="flex items-center w-full relative h-[27rem] mb-[3rem] border border-slate-700 md:border-0  drop-shadow md:drop-shadow-none">
+      <div className="flex items-center w-full relative h-[27rem] 
+      mb-[6rem] border border-slate-700 md:border-0  drop-shadow md:drop-shadow-none">
         <div
           className={`md:max-w-[60%] absolute ${
             orientation ? "left-0" : "right-0"
           } h-full md:h-auto md:w-full `}
         >
           <div className="absolute top-0 z-10 w-full h-full" />
+          <a  href={links[Object.keys(links)[0]]} target="_blank">
           <img
             src={ userThemeMode==='light' ? imageDark : imageLight} //TODO
             className={` h-full object-cover md:object-contain drop-shadow-2xl `}
             alt="Hal"
           />
+          </a>
+
         </div>
         <div
           className={`flex flex-col p-8 md:p-0 z-10 ${
             orientation ? "ml-auto md:items-end" : "md:items-start"
           } w-full md:w-fit backdrop-blur-md `}
         >
-          <span className="mb-2 text-sm cursor-default font-monospace accent">
+          <span className="mb-2 text-base font-monospace accent">
             Featured Project
           </span>
           <a target="_blank" rel="noreferrer" href={Object.values(links)[0]}>
@@ -45,7 +49,7 @@ function FeaturedProject({
             </h3>
           </a>
           <p
-            className={`cursor-default bg-[#141618] rounded
+            className={`bg-[#141618] rounded
             py-6 md:px-6 max-w-[34.5rem] dark-slate text-[0.94rem] ${
               orientation ? "md:text-right" : "md:text-left"
             } my-9 drop-shadow-xl`}
@@ -54,7 +58,7 @@ function FeaturedProject({
           </p>
           <ul
             className={
-              "flex flex-wrap cursor-default max-w-[34.5rem] items-center text-sm my-1 dark-slate font-monospace whitespace-nowrap"
+              "flex flex-wrap max-w-[34.5rem] items-center text-sm my-1 dark-slate font-monospace whitespace-nowrap"
             }
           >
             {tags.map((t, i) => {

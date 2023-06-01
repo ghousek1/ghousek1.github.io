@@ -21,7 +21,7 @@ function Projects() {
         "fas fa-external-link": "https://secundusbrain.ghousek1.com",
       },
       imageLight: SecundusBrainLightBanner,
-      imageDark: SecundusBrainDarkBanner
+      imageDark: SecundusBrainDarkBanner,
     },
     {
       name: "Social Raven - Social media management tool",
@@ -33,19 +33,19 @@ function Projects() {
         "fas fa-external-link": "https://socialraven.ghousek1.com",
       },
       imageLight: SocialRavenLightBanner,
-      imageDark: SocialRavenDarkBanner
+      imageDark: SocialRavenDarkBanner,
     },
     {
       name: "Viscody - Data visualization tool",
       description:
         "Data visualization tool that helps in visualizing Json, Yaml, Xml, Csv etc",
-      tags: ["React", "Tailwind"],
+      tags: ["React", "Tailwind", "ReactFlow", "CodeEditor"],
       links: {
         "fab fa-github": "https://github.com/ghousek1/viscody",
         "fas fa-external-link": "https://viscody.ghousek1.com",
       },
       imageLight: ViscodyLightBanner,
-      imageDark: ViscodyDarkBanner
+      imageDark: ViscodyDarkBanner,
     },
   ];
 
@@ -54,12 +54,12 @@ function Projects() {
       title: "Regel - Regular Expression helper tool",
       description: "Regular Expression helper tool written in javascript",
       links: {
-          "fab fa-github": "https://github.com/ghousek1/regel",
-          "fas fa-external-link": "https://regel.ghousek1.com",
+        "fab fa-github": "https://github.com/ghousek1/regel",
+        "fas fa-external-link": "https://regel.ghousek1.com",
       },
       tags: ["Javascript", "React"],
     },
-     {
+    {
       title: "Knight - Auth server",
       description: "Authenticaion & Authorization server to handle config",
       links: {
@@ -75,8 +75,7 @@ function Projects() {
         "fas fa-external-link": "https://tern.ghousek1.com",
       },
       tags: ["Java", "Spring", "Postgres", "Kafka"],
-    }
-    
+    },
   ];
 
   return (
@@ -118,6 +117,7 @@ function Projects() {
               view github repos
             </a>
           </div>
+          
           <div className="grid w-full gap-4 md:grid-cols-3">
             {otherProjectList.map((p) => {
               return (

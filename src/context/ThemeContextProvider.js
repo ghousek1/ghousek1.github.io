@@ -3,7 +3,7 @@ import "../App.css";
 import { ThemeContext } from "./ThemeContext";
 
 function ThemeContextDefaultProvider(props) {
-  const [userThemeMode, setUserThemeMode] = useState("light");
+  const [userThemeMode, setUserThemeMode] = useState("dark");
 
   useEffect(() => {
     window
@@ -31,6 +31,10 @@ function ThemeContextDefaultProvider(props) {
       name: "--custom-header-lines-color",
       value: "#4b4f58",
     },
+    {
+      name: "--custom-second-heading-color",
+      value: "#7a7f90",
+    },
   ];
 
   const darkThemeCSSVariables = [
@@ -46,6 +50,10 @@ function ThemeContextDefaultProvider(props) {
     {
       name: "--custom-header-lines-color",
       value: "#545a65",
+    },
+    {
+      name: "--custom-second-heading-color",
+      value: "#d0d0d0",
     },
   ];
 

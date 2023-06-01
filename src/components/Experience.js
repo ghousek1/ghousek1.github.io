@@ -32,20 +32,21 @@ function Experience() {
       ],
     },
   };
-
+  
   const [activeTab, setActiveTab] = useState(0);
 
   return (
     <>
-      <div id="experience" className="flex flex-col items-center w-full text-left section-padding section-margin">
+      <div id="experience" 
+           className="flex flex-col items-center w-full text-left section-padding section-margin">
         <div className="flex items-center w-full pb-8 header-line">
           <span className="mr-4 text-xl accent font-monospace">02.</span>
           <span className="text-[22px] whitespace-nowrap slate font-Poppins font-[600]">
             Experience
           </span>
         </div>
-        <p className="w-full mb-3 leading-7 dark-slate">
-          As of 2023, I have almost 2.5 years of professional developer experience in building backend applications.
+        <p className="w-full mb-3 leading-7 dark-slate ">
+          As of 2023, I have 2.5 years of professional developer experience in building backend applications.
            Along side worked and contributed to prominent open-source projects.
         </p>
       

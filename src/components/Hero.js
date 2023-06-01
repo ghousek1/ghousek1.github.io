@@ -8,16 +8,16 @@ function Hero() {
     <>
       <div className="flex flex-row justify-start w-full h-full gap-2 mt-1 md:mt-3 section-padding section-margin">
         <div className="flex flex-col justify-center w-full">
-          <div>
+          <div className="flex flex-row items-center justify-start ">
           <h1 className="inline-block slate mb-2 mt-6 md:mt-16 py-1 text-4xl font-[600] md:py-2 lg:text-6xl">
             Ghouse K1
           </h1>
-          <div className="inline-block slate">(one)</div>
+          <div className="text-lg font-normal slate">(one)</div>
           </div>
          
           <h2
             className="slate py-1 mb-4 text-2xl font-[600] leading-normal tracking-tight opacity-60
-                         md:py-2 md:text-[2rem]  lg:text-5xl"
+                          md:py-2 md:text-[2rem]  lg:text-5xl"
           >
             Software craftsman
           </h2>

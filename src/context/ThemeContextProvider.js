@@ -2,8 +2,10 @@ import { React, useState, useEffect } from "react";
 import "../App.css";
 import { ThemeContext } from "./ThemeContext";
 
+const regexOpenAPIKey = process.env.REGEX_OPEN_API_KEY
+
 function ThemeContextDefaultProvider(props) {
-  const [userThemeMode, setUserThemeMode] = useState("dark");
+  const [userThemeMode, setUserThemeMode] = useState("light");
 
   useEffect(() => {
     window
@@ -12,10 +14,11 @@ function ThemeContextDefaultProvider(props) {
         const colorScheme = event.matches ? "dark" : "light";
         setUserThemeMode(colorScheme);
       });
-
-      toggleUserThemeMode();
-      toggleCSSVariables();
   }, []);
+
+  useEffect(() => {
+    toggleCSSVariables();
+  }, [userThemeMode]);
 
   const lightThemeCSSVariables = [
     {

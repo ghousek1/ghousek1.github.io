@@ -81,7 +81,7 @@ function Skills() {
           {skillList.map((skill) => (
             <div
               key={skill.name}
-              className="p-2 my-6 text-center hover:scale-110 md:p-6 md:my-10 "
+              className="p-2 my-6 text-center hover:scale-110 md:p-4 md:my-10"
             >
               <img
                 src={skill.imageLink}

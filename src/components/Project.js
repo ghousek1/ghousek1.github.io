@@ -1,10 +1,15 @@
-import React from "react";
+import React , {useContext} from "react";
 import "./../App.css";
 
+import { ThemeContext } from "../context/ThemeContext";
+
+
 function Project({ title, description, links, tags }) {
+  const [userThemeMode,] = useContext(ThemeContext);
   return (
     <>
-      <div className="flex flex-col p-8 rounded div-back drop-shadow-2xl ">
+      <div className={` ${ userThemeMode === "dark" ? "shadow-[#292c31]" : "shadow-gray-400"}
+       flex flex-col p-8 rounded shadow-2xl  div-back  `}>
         <div className="flex items-center justify-between">
           <i className="text-3xl far fa-folder accent" />
           <div className="flex items-center dark-slate">

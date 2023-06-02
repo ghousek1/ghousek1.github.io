@@ -24,7 +24,7 @@ function FeaturedProject({
           <div className="absolute top-0 z-10 w-full h-full" />
           <a  href={links[Object.keys(links)[0]]} target="_blank">
           <img
-            src={ userThemeMode==='light' ? imageDark : imageLight} //TODO
+            src={ userThemeMode==='dark' ? imageDark : imageLight}
             className={` h-full object-cover md:object-contain drop-shadow-2xl `}
             alt="Hal"
           />

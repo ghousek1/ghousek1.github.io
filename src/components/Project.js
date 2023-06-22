@@ -8,7 +8,7 @@ function Project({ title, description, links, tags }) {
   const [userThemeMode,] = useContext(ThemeContext);
   return (
     <>
-      <div className={` ${ userThemeMode === "dark" ? "shadow-[#292c31]" : "shadow-gray-400"}
+      <div className={` ${ userThemeMode === "dark" ? "shadow-[#2e2e2e]" : "shadow-gray-400"}
        flex flex-col p-8 rounded shadow-2xl  div-back  `}>
         <div className="flex items-center justify-between">
           <i className="text-3xl far fa-folder accent" />

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.63473928.css",
-    "main.js": "/static/js/main.1a9f320b.js",
+    "main.css": "/static/css/main.8e6da1dc.css",
+    "main.js": "/static/js/main.74e31bff.js",
     "static/media/secundusbrain-banner-dark.png": "/static/media/secundusbrain-banner-dark.9606fa3ddff04d2127dc.png",
     "static/media/secundusbrain-banner-light.png": "/static/media/secundusbrain-banner-light.9606fa3ddff04d2127dc.png",
     "static/media/viscody-banner-dark.png": "/static/media/viscody-banner-dark.a0146ff5eba334ff3d73.png",
@@ -9,7 +9,8 @@
     "static/media/socialraven-banner-dark.png": "/static/media/socialraven-banner-dark.c5644d82c323efa44fc2.png",
     "static/media/socialraven-banner-light.png": "/static/media/socialraven-banner-light.fbdfd4cb7bf2fb56bb25.png",
     "static/media/kubernetes.svg": "/static/media/kubernetes.b3d19d760e54e82870400dd5c58e6592.svg",
-    "static/media/hero-banner-image.png": "/static/media/hero-banner-image.617cb5798e3e5c05f554.png",
+    "static/media/hero-banner-image-light.png": "/static/media/hero-banner-image-light.84635b3444627b48f594.png",
+    "static/media/hero-banner-image-dark.png": "/static/media/hero-banner-image-dark.b1f1530c1670061b672e.png",
     "static/media/postgresql.svg": "/static/media/postgresql.40e4ed33e23d7740efc9c788a8e51a47.svg",
     "static/media/java.svg": "/static/media/java.77773cd4ffffa4f39e97493e90ca5424.svg",
     "static/media/redis.svg": "/static/media/redis.2fcdc25cae6d651b486e1b3c98bcae15.svg",
@@ -22,11 +23,11 @@
     "static/media/mongodb.svg": "/static/media/mongodb.53cffe900ae5bc9436243417539a972a.svg",
     "static/media/graphql.svg": "/static/media/graphql.f026e5476705202bbbc0c17dc687057c.svg",
     "static/media/reactjs.svg": "/static/media/reactjs.3a03708e42481565259f85329d20b695.svg",
-    "main.63473928.css.map": "/static/css/main.63473928.css.map",
-    "main.1a9f320b.js.map": "/static/js/main.1a9f320b.js.map"
+    "main.8e6da1dc.css.map": "/static/css/main.8e6da1dc.css.map",
+    "main.74e31bff.js.map": "/static/js/main.74e31bff.js.map"
   },
   "entrypoints": [
-    "static/css/main.63473928.css",
-    "static/js/main.1a9f320b.js"
+    "static/css/main.8e6da1dc.css",
+    "static/js/main.74e31bff.js"
   ]
 }

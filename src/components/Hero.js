@@ -1,13 +1,17 @@
-import React from "react";
+import React , {useContext} from "react";
 import "./../App.css";
 
-import HeroBannerImage from "../assets/images/hero-banner-image.png";
+import { ThemeContext } from "../context/ThemeContext";
+
+import HeroBannerLightImage from "../assets/images/hero-banner-image-light.png";
+import HeroBannerDarkImage from "../assets/images/hero-banner-image-dark.png";
 
 function Hero() {
+  const [userThemeMode, ] = useContext(ThemeContext);
   return (
     <>
       <div className="flex flex-row justify-start w-full h-full gap-2 mt-1 md:mt-3 section-padding section-margin">
-        <div className="flex flex-col justify-center w-full">
+        <div className="flex flex-col justify-center w-full  ">
           <div className="flex flex-row items-center justify-start ">
           <h1 className="inline-block slate mb-2 mt-6 md:mt-16 py-1 text-4xl font-[600] md:py-2 lg:text-6xl">
             Ghouse K1
@@ -16,8 +20,8 @@ function Hero() {
           </div>
          
           <h2
-            className="slate py-1 mb-4 text-2xl font-[600] leading-normal tracking-tight opacity-60
-                          md:py-2 md:text-[2rem]  lg:text-5xl"
+            className="slate py-1 mb-4 text-[1.6rem] font-[600] leading-normal tracking-tight opacity-60
+                          md:py-2 md:text-[1.8rem]  lg:text-4xl"
           >
             Software craftsman
           </h2>
@@ -73,10 +77,10 @@ function Hero() {
             </a>
           </div>
         </div>
-        <div className="hidden below-md:flex below-md:flex-col">
-          <div>
-            <img src={HeroBannerImage} alt="hero-banner" className="w-full " />
-          </div>
+        <div className="hidden below-md:flex below-md:flex-col  justify-center ">
+         
+            <img src={`${userThemeMode === "dark" ? HeroBannerDarkImage : HeroBannerLightImage}`}  alt="hero-banner" className=" w-full " />
+        
         </div>
       </div>
     </>

@@ -77,10 +77,10 @@ function Hero() {
             </a>
           </div>
         </div>
-        <div className="hidden below-md:flex below-md:flex-col  justify-center ">
+        <div className="hidden below-md:flex below-md:flex-col   justify-center ">
          
-            <img src={`${userThemeMode === "dark" ? HeroBannerDarkImage : HeroBannerLightImage}`}  alt="hero-banner" className=" w-full " />
-        
+            <img src={`${userThemeMode === "dark" ? HeroBannerDarkImage : HeroBannerLightImage}`}  alt="hero-banner" className="   " />
+            
         </div>
       </div>
     </>

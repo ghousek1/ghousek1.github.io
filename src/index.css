@@ -27,10 +27,10 @@
   --custom-scrollbar-color: #8289ad;
   
   
-  /*first headings of sections*/
-  --custom-second-heading-color: #7a7f90;
+  /*second headings of sections*/
+  /* --custom-second-heading-color: #7a7f90; */
 
-  --test-color:#2e2e2e;
+  --test-color:#c7d2f5;
 
 
 
@@ -92,11 +92,11 @@ a {
 }
 
 .slate-alt {
-  color: var(--custom-second-heading-color);
+  color: var(--custom-first-heading-color);
 }
 
 .dark-slate {
-  color: var(--custom-second-heading-color);
+  color: var(--custom-first-heading-color);
 }
 
 .hover-accent:hover {

@@ -8,11 +8,11 @@ function Project({ title, description, links, tags }) {
   const [userThemeMode,] = useContext(ThemeContext);
   return (
     <>
-      <div className={` ${ userThemeMode === "dark" ? "shadow-[#2e2e2e]" : "shadow-gray-400"}
+      <div className={` ${ userThemeMode === "dark" ? "shadow-[#191919]" : "shadow-gray-400"}
        flex flex-col p-8 rounded shadow-2xl  div-back  `}>
         <div className="flex items-center justify-between">
           <i className="text-3xl far fa-folder accent" />
-          <div className="flex items-center dark-slate">
+          <div className="flex items-center slate">
             {Object.keys(links).map((l, i) => {
               return (
                 <a
@@ -28,10 +28,10 @@ function Project({ title, description, links, tags }) {
           </div>
         </div>
         <h4 className="slate pt-6 cursor-default font-[600]">{title}</h4>
-        <p className={`dark-slate pt-2 text-sm cursor-default`}>
+        <p className={`slate pt-2 text-sm cursor-default`}>
           {description}
         </p>
-        <ul className="flex flex-wrap items-center mt-6 text-sm cursor-default dark-slate opacity-60 font-monospace">
+        <ul className="flex flex-wrap items-center mt-6 text-sm cursor-default slate opacity-60 font-monospace">
           {tags.map((t, i) => {
             return (
               <li key={i} className="mr-5 whitespace-nowrap">

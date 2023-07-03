@@ -50,7 +50,7 @@ function FeaturedProject({
           </a>
           <p
             className={`bg-[#141618] rounded
-            py-6 md:px-6 max-w-[34.5rem] dark-slate text-[0.94rem] ${
+            py-6 md:px-6 max-w-[34.5rem] text-[#c7d2f5] text-[0.94rem] ${
               orientation ? "md:text-right" : "md:text-left"
             } my-9 drop-shadow-xl`}
           >
@@ -58,7 +58,7 @@ function FeaturedProject({
           </p>
           <ul
             className={
-              "flex flex-wrap max-w-[34.5rem] items-center text-sm my-1 dark-slate font-monospace whitespace-nowrap"
+              "flex flex-wrap max-w-[34.5rem] items-center text-sm my-1 slate font-monospace whitespace-nowrap"
             }
           >
             {tags.map((t, i) => {
@@ -75,7 +75,7 @@ function FeaturedProject({
             })}
           </ul>
           <div
-            className={"flex flex-wrap items-center text-lg mt-4 dark-slate"}
+            className={"flex flex-wrap items-center text-lg mt-4 slate"}
           >
             {Object.keys(links).map((l, i) => {
               return (

@@ -45,7 +45,7 @@ function Experience() {
             Experience
           </span>
         </div>
-        <p className="w-full mb-3 leading-7 dark-slate ">
+        <p className="w-full mb-3 leading-7 slate ">
           As of 2023, I have 2.5 years of professional developer experience in building backend applications.
            Along side worked and contributed to prominent open-source projects.
         </p>

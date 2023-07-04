@@ -34,7 +34,7 @@ function Contact() {
               alt="sign"
             />
             <div
-              className="slate text-[0.8rem]  font-[300] leading-normal  tracking-tight
+              className="slate text-[0.8rem]  font-[330] leading-normal  tracking-tight
                           opacity-60 md:text-[1rem] lg:text-2xl "
             >
               ghousek1@outlook.com

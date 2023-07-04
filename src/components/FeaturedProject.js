@@ -14,21 +14,21 @@ function FeaturedProject({
   const [userThemeMode] = useContext(ThemeContext);
   return (
     <>
-      <div className="flex items-center w-full relative h-[27rem] 
-      mb-[6rem] border border-slate-700 md:border-0  drop-shadow md:drop-shadow-none">
+      <div  className={` ${ userThemeMode === "dark" ? "shadow-[#151515]" : "shadow-gray-400"}
+                 flex items-center w-full relative h-[27rem] 
+          mb-[6rem] border border-slate-700 md:border-0  drop-shadow md:drop-shadow-none`} >
         <div
           className={`md:max-w-[60%] absolute ${
             orientation ? "left-0" : "right-0"
           } h-full md:h-auto md:w-full `}
         >
-          <div className="absolute top-0 z-10 w-full h-full" />
-          <a  href={links[Object.keys(links)[0]]} target="_blank">
-          <img
+      <a href={links[Object.keys(links)[1]]} target="_blank" rel="noreferrer">
+      <img
             src={ userThemeMode==='dark' ? imageDark : imageLight}
             className={` h-full object-cover md:object-contain drop-shadow-2xl `}
-            alt="Hal"
+            alt="project-image"
           />
-          </a>
+      </a>
 
         </div>
         <div

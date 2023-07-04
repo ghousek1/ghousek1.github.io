@@ -28,7 +28,7 @@ function Navbar() {
       className="flex h-[6.25rem] w-full items-center justify-between px-4 md:px-8 "
     >
       <a href="/" className="z-[100] cursor-pointer text-3xl">
-        <span className="accent bold text-4xl font-[600] Font-handy">K1</span>
+        <span className="accent bold text-4xl font-[600] font-Poppins">K1</span>
       </a>
       <div
         className={`${sideMenu ? "flex" : "hidden md:flex"} 

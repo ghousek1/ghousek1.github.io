@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.edec755b.css",
-    "main.js": "/static/js/main.3acb0d86.js",
+    "main.css": "/static/css/main.a848a310.css",
+    "main.js": "/static/js/main.0db2cca0.js",
     "static/media/secundusbrain-banner-dark.png": "/static/media/secundusbrain-banner-dark.9606fa3ddff04d2127dc.png",
     "static/media/secundusbrain-banner-light.png": "/static/media/secundusbrain-banner-light.9606fa3ddff04d2127dc.png",
     "static/media/viscody-banner-dark.png": "/static/media/viscody-banner-dark.a0146ff5eba334ff3d73.png",
@@ -25,11 +25,11 @@
     "static/media/mongodb.svg": "/static/media/mongodb.53cffe900ae5bc9436243417539a972a.svg",
     "static/media/graphql.svg": "/static/media/graphql.f026e5476705202bbbc0c17dc687057c.svg",
     "static/media/reactjs.svg": "/static/media/reactjs.3a03708e42481565259f85329d20b695.svg",
-    "main.edec755b.css.map": "/static/css/main.edec755b.css.map",
-    "main.3acb0d86.js.map": "/static/js/main.3acb0d86.js.map"
+    "main.a848a310.css.map": "/static/css/main.a848a310.css.map",
+    "main.0db2cca0.js.map": "/static/js/main.0db2cca0.js.map"
   },
   "entrypoints": [
-    "static/css/main.edec755b.css",
-    "static/js/main.3acb0d86.js"
+    "static/css/main.a848a310.css",
+    "static/js/main.0db2cca0.js"
   ]
 }

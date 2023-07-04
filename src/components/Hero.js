@@ -11,7 +11,7 @@ function Hero() {
   return (
     <>
       <div className="flex flex-row justify-start w-full h-full gap-2 mt-1 md:mt-3 section-padding section-margin">
-        <div className="flex flex-col justify-center w-full  ">
+        <div className="flex flex-col justify-center w-full">
           <div className="flex flex-row items-center justify-start ">
           <h1 className="inline-block slate mb-2 mt-6 md:mt-16 py-1 text-4xl font-[600] md:py-2 lg:text-6xl">
             Ghouse K1
@@ -77,9 +77,9 @@ function Hero() {
             </a>
           </div>
         </div>
-        <div className="hidden below-md:flex below-md:flex-col   justify-center ">
+        <div className="hidden below-md:flex below-md:flex-col  justify-center ">
          
-            <img src={`${userThemeMode === "dark" ? HeroBannerDarkImage : HeroBannerLightImage}`}  alt="hero-banner" className="   " />
+            <img src={`${userThemeMode === "dark" ? HeroBannerDarkImage : HeroBannerLightImage}`}  alt="hero-banner" className="  " />
             
         </div>
       </div>

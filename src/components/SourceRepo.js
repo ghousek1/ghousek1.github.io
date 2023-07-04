@@ -6,7 +6,7 @@ function SourceRepo({ title, description, links, tags }) {
   const [userThemeMode,] = useContext(ThemeContext);
   return (
     <>
-      <div className={` ${ userThemeMode === "dark" ? "shadow-[#191919]" : "shadow-gray-400"}
+      <div className={` ${ userThemeMode === "dark" ? "shadow-[#151515]" : "shadow-gray-400"}
         flex flex-col p-8 rounded shadow-2xl div-back `}>
         <div className="flex items-center justify-between">
           <i className="text-3xl fa-brands fa-osi accent" />

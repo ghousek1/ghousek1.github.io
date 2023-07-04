@@ -28,7 +28,7 @@ function Navbar() {
       className="flex h-[6.25rem] w-full items-center justify-between px-4 md:px-8 "
     >
       <a href="/" className="z-[100] cursor-pointer text-3xl">
-        <span className="accent bold text-4xl font-[600]">K1</span>
+        <span className="accent bold text-4xl font-[600] Font-handy">K1</span>
       </a>
       <div
         className={`${sideMenu ? "flex" : "hidden md:flex"} 
@@ -37,7 +37,7 @@ function Navbar() {
         md:h-auto md:w-auto md:flex-row md:items-center md:justify-center md:bg-transparent md:p-0`}
       >
         <ul
-          className="slate font-[420] mr-4 flex flex-col font-monospace text-[1.5rem] leading-10 tracking-wide
+          className="slate font-[420] mr-4 flex flex-col font-monospace text-[1.5rem] leading-10 tracking-[0.25rem]
                        md:flex-row md:text-[1rem] md:leading-8"
         >
           {navlinks.map((navLink) => (

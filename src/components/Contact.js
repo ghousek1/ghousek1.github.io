@@ -26,16 +26,16 @@ function Contact() {
           }
         div-back relative flex  h-[34rem] w-full flex-col items-center rounded p-8 shadow-2xl md:h-[30rem]  md:flex-row `}
         >
-          <div className="flex h-[40%] w-[100%] flex-col items-center justify-center md:h-full ">
+          <div className="hidden md:flex h-[40%] w-[100%] flex-col items-center justify-center md:h-full ">
       
             <img
               src={`${userThemeMode === "dark" ? SignLight : SignDark}`}
-              className="w-68 h-24 md:w-80 md:h-30 "
+              className="w-80 h-30 "
               alt="sign"
             />
             <div
-              className="slate text-[0.8rem]  font-[330] leading-normal  tracking-tight
-                          opacity-60 md:text-[1rem] lg:text-2xl "
+              className="slate font-[330] leading-normal  tracking-tight
+                          opacity-60 text-[0.6rem] lg:text-2xl "
             >
               ghousek1@outlook.com
             </div>

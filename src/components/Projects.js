@@ -1,8 +1,8 @@
 import React from "react";
-import SecundusBrainDarkBanner from "../assets/images/projects/secundusbrain-banner-dark.png";
-import SecundusBrainLightBanner from "../assets/images/projects/secundusbrain-banner-light.png";
-import SocialRavenDarkBanner from "../assets/images/projects/socialraven-banner-dark.png";
-import SocialRavenLightBanner from "../assets/images/projects/socialraven-banner-light.png";
+import MemoiristDarkBanner from "../assets/images/projects/memoirist-banner-dark.png";
+import MemoiristLightBanner from "../assets/images/projects/memoirist-banner-light.png";
+// import SocialRavenDarkBanner from "../assets/images/projects/socialraven-banner-dark.png";
+// import SocialRavenLightBanner from "../assets/images/projects/socialraven-banner-light.png";
 import ViscodyDarkBanner from "../assets/images/projects/viscody-banner-dark.png";
 import ViscodyLightBanner from "../assets/images/projects/viscody-banner-light.png";
 import FeaturedProject from "./FeaturedProject";
@@ -12,29 +12,29 @@ import "./../App.css";
 function Projects() {
   const featuredProjectList = [
     {
-      name: "Secundus Brain - Works as second brain",
+      name: "Memoirist - Day logging tool",
       description:
-        "A knowledge management tool which handles data like human brain",
+        "A Day logging tool which helps users to log their daily activities,photos, videos etc",
       tags: ["SpringBoot", "React", "Postgres", "MeiliSearch", "Redis"],
       links: {
-        "fab fa-github": "https://github.com/ghousek1/secundus-brain",
-        "fas fa-external-link": "https://secundusbrain.ghousek1.com",
+        "fab fa-github": "https://github.com/ghousek1/memoirist",
+        "fas fa-external-link": "https://memoirist.ghousek1.com",
       },
-      imageLight: SecundusBrainLightBanner,
-      imageDark: SecundusBrainDarkBanner,
+      imageLight: MemoiristLightBanner,
+      imageDark: MemoiristDarkBanner,
     },
-    {
-      name: "Social Raven - Social media management tool",
-      description:
-        "Social media management tool that helps in scheduling posts, analyse traffic for social media accounts",
-      tags: ["SpringBoot", "React", "Postgres", "KeyCloak", "Kafka", "Redis"],
-      links: {
-        "fab fa-github": "https://github.com/ghousek1/social-raven",
-        "fas fa-external-link": "https://socialraven.ghousek1.com",
-      },
-      imageLight: SocialRavenLightBanner,
-      imageDark: SocialRavenDarkBanner,
-    },
+    // {
+    //   name: "Social Raven - Social media management tool",
+    //   description:
+    //     "Social media management tool that helps in scheduling posts, analyse traffic for social media accounts",
+    //   tags: ["SpringBoot", "React", "Postgres", "KeyCloak", "Kafka", "Redis"],
+    //   links: {
+    //     "fab fa-github": "https://github.com/ghousek1/social-raven",
+    //     "fas fa-external-link": "https://socialraven.ghousek1.com",
+    //   },
+    //   imageLight: SocialRavenLightBanner,
+    //   imageDark: SocialRavenDarkBanner,
+    // },
     {
       name: "Viscody - Data visualization tool",
       description:
@@ -61,11 +61,11 @@ function Projects() {
     },
     {
       title: "Knight - Auth server",
-      description: "Authenticaion & Authorization server to handle config",
+      description: "Authenticaion & Authorization server with simplicity",
       links: {
         "fab fa-github": "https://github.com/ghousek1/knight-auth-server",
       },
-      tags: ["Java", "Spring", "Keycloak", "Postgres"],
+      tags: ["Javascript", "Cloudflare-Workers", "Keycloak", "Postgres"],
     },
     {
       title: "Tern - Monitoring tool",

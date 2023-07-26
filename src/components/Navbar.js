@@ -37,8 +37,9 @@ function Navbar() {
         md:h-auto md:w-auto md:flex-row md:items-center md:justify-center md:bg-transparent md:p-0`}
       >
         <ul
-          className="slate font-[420] mr-4 flex flex-col font-monospace text-[1.5rem] leading-10 tracking-[0.25rem]
-                       md:flex-row md:text-[1rem] md:leading-8"
+          className="slate font-[410] mr-4 flex flex-col font-monospace 
+                       text-[1.2rem] leading-8 tracking-[0.15rem]
+                       md:flex-row md:text-[0.9rem] md:leading-6"
         >
           {navlinks.map((navLink) => (
             <li key={navLink.id} className="px-5 py-3 md:px-4 md:py-0">
@@ -58,7 +59,7 @@ function Navbar() {
           <li>
             <i
               onClick={toggleTheme}
-              className="text-[1.75rem] fa-solid fa-circle-half-stroke fa-flip-horizontal px-5 py-3 md:px-2 md:py-0"
+              className="text-[1.5rem] fa-solid fa-circle-half-stroke fa-flip-horizontal px-5 py-3 md:px-2 md:py-0"
             ></i>
           </li>
         </ul>
@@ -66,7 +67,7 @@ function Navbar() {
       <i
         onClick={toggleSideMenu}
         className={`fas fa-${sideMenu ? "close" : "bars-staggered"} 
-                    z-[100] w-[1.25rem] cursor-pointer text-center text-xl md:hidden accent`}
+                    z-[100] w-[1rem] cursor-pointer text-center text-xl md:hidden accent`}
       />
     </nav>
   );

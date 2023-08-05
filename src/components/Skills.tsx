@@ -72,7 +72,7 @@ function Skills() {
       >
         <div className="flex items-center w-full  header-line">
           <span className="mr-4 text-xl accent font-monospace">01.</span>
-          <h3 className="text-2xl whitespace-nowrap slate font-[600]">
+          <h3 className="text-2xl whitespace-nowrap slate font-[600] font-Poppins">
             Skills
           </h3>
         </div>

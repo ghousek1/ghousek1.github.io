@@ -36,7 +36,7 @@ function Contributions() {
     <div id="contributions" className="flex flex-col items-center w-full section-padding section-margin">
       <div className="flex items-center w-full pb-10 header-line">
         <span className="mr-4 text-xl accent font-monospace">04.</span>
-        <h3 className="text-2xl whitespace-nowrap slate font-[600]">
+        <h3 className="text-2xl whitespace-nowrap slate font-[600] font-Poppins">
           Open-source <span className="block md:inline">contributions</span>
         </h3>
       </div>

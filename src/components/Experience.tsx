@@ -44,8 +44,8 @@ function Experience() {
             Experience
           </span>
         </div>
-        <p className="w-full mb-3 leading-7 slate ">
-          As of 2023, I have 2.5 years of professional developer experience in building backend applications.
+        <p className="w-full mb-3 leading-7 slate font-Inter ">
+          As of 2023, I have 3 years of professional developer experience in building backend applications.
            Along side worked and contributed to prominent open-source projects.
         </p>
       
@@ -78,7 +78,7 @@ function Experience() {
                   <span className={"slate text-sm font-monospace"}>
                     {experienceRecord[k].duration}
                   </span>
-                  <ul className="flex flex-col mt-4 text-sm leading-6 bullet-list slate-alt">
+                  <ul className="flex flex-col mt-4 text-sm leading-6 bullet-list slate-alt font-Inter">
                     {Object.values(experienceRecord[k].content).map((v:any) => (
                       <li key={v} className={"mb-2"}>{v}</li>
                     ))}

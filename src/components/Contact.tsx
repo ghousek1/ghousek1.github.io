@@ -14,7 +14,7 @@ function Contact() {
       >
         <div className="header-line flex w-full items-center pb-8">
           <span className="accent mr-4 font-monospace text-xl">05.</span>
-          <h3 className="slate whitespace-nowrap text-2xl font-[600]">
+          <h3 className="slate whitespace-nowrap text-2xl font-[600] font-Poppins">
             Contact
           </h3>
         </div>
@@ -42,7 +42,7 @@ function Contact() {
           </div>
 
           <div className="flex h-full w-[100%] flex-col">
-            <div className="slate pb-3 text-[1.2rem] leading-normal md:text-[1.5rem]">
+            <div className="slate pb-3 text-[1.2rem] leading-normal md:text-[1.5rem] font-Poppins">
               Drop a Message
             </div>
 

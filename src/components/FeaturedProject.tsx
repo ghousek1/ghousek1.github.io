@@ -50,7 +50,7 @@ function FeaturedProject({
           <a target="_blank" rel="noreferrer" href={links[0]}>
             <h3
               className={
-                "cursor-pointer slate hover-accent text-2xl font-[600]"
+                "cursor-pointer slate hover-accent text-2xl font-[600] font-Poppins"
               }
             >
               {title}
@@ -60,7 +60,7 @@ function FeaturedProject({
             className={`bg-[#141618] rounded
             py-6 md:px-6 max-w-[34.5rem] text-[#c7d2f5] text-[0.94rem] ${
               orientation ? "md:text-right" : "md:text-left"
-            } my-9 drop-shadow-xl`}
+            } my-9 drop-shadow-xl font-Inter`}
           >
             {description}
           </p>
